@@ -1,10 +1,9 @@
 # Exoplanet-Detection-Models
 References: <br />
-<br />
-Astronet: https://github.com/google-research/exoplanet-ml/tree/master/exoplanet-ml/astronet <br />
-Kaggle: https://www.kaggle.com/keplersmachines/kepler-labelled-time-series-data <br />
-Research: https://exoplanetmodel.notion.site/4ba2be8c078245d9af80b8394b5e96d7?v=51f032e061094ec2a72b6ebf2956ecfb <br />
-Kepler: https://exoplanetarchive.ipac.caltech.edu/index.html <br />
+- Astronet: https://github.com/google-research/exoplanet-ml/tree/master/exoplanet-ml/astronet <br />
+- Kaggle: https://www.kaggle.com/keplersmachines/kepler-labelled-time-series-data <br />
+- Research: https://exoplanetmodel.notion.site/4ba2be8c078245d9af80b8394b5e96d7?v=51f032e061094ec2a72b6ebf2956ecfb <br />
+- Kepler: https://exoplanetarchive.ipac.caltech.edu/index.html <br />
 
 # Description
 A collection of machine learning models that are trained on light curve data and are able to predict whether or not a given set of light curve data contains an exoplanet.
