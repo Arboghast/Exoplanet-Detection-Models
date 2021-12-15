@@ -1,0 +1,5 @@
+logs/
+.ipynb_checkpoints/
+exoTrain.csv
+exoTest.csv
+ProcessData.npy

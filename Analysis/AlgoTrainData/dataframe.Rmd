@@ -1,0 +1,28 @@
+---
+title: "dataframe"
+author: "Raymond kwok"
+date: "12/15/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r echo=FALSE, results ='asis'}
+library(knitr)
+model = data.frame(Analysis = c('F1', 'accuracy', 'recall', 'precision'),
+                Kepler_LC_RF = c(0.88,0.91,0.86,0.89),
+                Kaggle_TSFresh_RF = c(0.98, 0.97, 0.79, 0.58),
+                Kaggle_LC_RF = c(1.0, 0.99, 0.5, 0.5)
+)
+kable(model, caption = "Best Models")
+
+analysis = data.frame(Analysis = c('AUC', 'ACC', 'False Negatives'),
+                Kepler_LC_LSTM = c(0.822, 0.7708, '2886'),
+                Kepler_LC_RNN = c(0.7620, 0.7208, '2886'),
+                Kepler_TSFresh_LSTM = c(0.3489, 0.7219, '2010')
+)
+kable(analysis, caption = "Analysis of Models")
+```
+
