@@ -1,5 +1,6 @@
 # Exoplanet-Detection-Models
 References: <br />
+<br />
 Astronet: https://github.com/google-research/exoplanet-ml/tree/master/exoplanet-ml/astronet <br />
 Kaggle: https://www.kaggle.com/keplersmachines/kepler-labelled-time-series-data <br />
 Research: https://exoplanetmodel.notion.site/4ba2be8c078245d9af80b8394b5e96d7?v=51f032e061094ec2a72b6ebf2956ecfb <br />
